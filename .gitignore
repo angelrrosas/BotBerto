@@ -1,0 +1,33 @@
+mySecrets.py
+
+# Archivos de Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Entornos virtuales
+venv/
+env/
+ENV/
+
+# Archivos de configuración sensibles
+*.env
+.env
+config.py
+secrets.py
+
+# Archivos de gastos (opcional, si no quieres compartir datos)
+gastos.json
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
