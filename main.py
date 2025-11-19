@@ -119,7 +119,7 @@ async def resumen(ctx):
 
     await ctx.send(embed=embed)
 
-# --- HISTORIAL --- #asdasdad
+# --- HISTORIAL --- cambios
 @bot.command()
 async def historial(ctx, limite: int = 10):
     user_id = str(ctx.author.id)
